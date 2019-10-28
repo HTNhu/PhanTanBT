@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLMayTinh">
+  <DataContextMoniker Name="/QLMayTinhDataContext" />
+  <nestedChildShapes>
+    <classShape Id="9f61340d-740f-4b5d-b2d9-e6f85dcbc8be" absoluteBounds="3.5, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/QLMayTinhDataContext/tblMaytinh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="79b4834a-1cfe-49b0-a731-cd01ea9cafc0" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="229d763e-1ea1-4633-8acd-360aa451f392" absoluteBounds="0.75, 1.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QLMayTinhDataContext/tblPhonghoc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3467f9e3-b336-48e5-a03c-ceeaeecace2e" absoluteBounds="0.765, 1.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.03929768880208); (3.5 : 2.03929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLMayTinhDataContext/tblPhonghoc/tblPhonghoc_tblMaytinh" />
+      <nodes>
+        <classShapeMoniker Id="229d763e-1ea1-4633-8acd-360aa451f392" />
+        <classShapeMoniker Id="9f61340d-740f-4b5d-b2d9-e6f85dcbc8be" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

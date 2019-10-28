@@ -1,0 +1,11 @@
+C:\GiangDay\WinNC\QLMayTinh\DALQLMayTinh\bin\Debug\DALQLMayTinh.dll.config
+C:\GiangDay\WinNC\QLMayTinh\DALQLMayTinh\bin\Debug\DALQLMayTinh.dll
+C:\GiangDay\WinNC\QLMayTinh\DALQLMayTinh\bin\Debug\DALQLMayTinh.pdb
+C:\GiangDay\WinNC\QLMayTinh\DALQLMayTinh\obj\Debug\DALQLMayTinh.dll
+C:\GiangDay\WinNC\QLMayTinh\DALQLMayTinh\obj\Debug\DALQLMayTinh.pdb
+T:\QLMayTinh\DALQLMayTinh\bin\Debug\DALQLMayTinh.dll.config
+T:\QLMayTinh\DALQLMayTinh\bin\Debug\DALQLMayTinh.dll
+T:\QLMayTinh\DALQLMayTinh\bin\Debug\DALQLMayTinh.pdb
+T:\QLMayTinh\DALQLMayTinh\obj\Debug\DALQLMayTinh.csprojResolveAssemblyReference.cache
+T:\QLMayTinh\DALQLMayTinh\obj\Debug\DALQLMayTinh.dll
+T:\QLMayTinh\DALQLMayTinh\obj\Debug\DALQLMayTinh.pdb

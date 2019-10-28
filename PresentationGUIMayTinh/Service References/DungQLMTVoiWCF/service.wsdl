@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="QuanLyMayTinh" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/EntitiesQLMayTinh" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IQuanLyMayTinh_getAllPhongHoc_InputMessage">
+    <wsdl:part name="parameters" element="tns:getAllPhongHoc" />
+  </wsdl:message>
+  <wsdl:message name="IQuanLyMayTinh_getAllPhongHoc_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getAllPhongHocResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuanLyMayTinh_getMayTinhThuocPhong_InputMessage">
+    <wsdl:part name="parameters" element="tns:getMayTinhThuocPhong" />
+  </wsdl:message>
+  <wsdl:message name="IQuanLyMayTinh_getMayTinhThuocPhong_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getMayTinhThuocPhongResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuanLyMayTinh_CheckIfExist_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckIfExist" />
+  </wsdl:message>
+  <wsdl:message name="IQuanLyMayTinh_CheckIfExist_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckIfExistResponse" />
+  </wsdl:message>
+  <wsdl:message name="IQuanLyMayTinh_insertMayTinh_InputMessage">
+    <wsdl:part name="parameters" element="tns:insertMayTinh" />
+  </wsdl:message>
+  <wsdl:message name="IQuanLyMayTinh_insertMayTinh_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insertMayTinhResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IQuanLyMayTinh">
+    <wsdl:operation name="getAllPhongHoc">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuanLyMayTinh/getAllPhongHoc" message="tns:IQuanLyMayTinh_getAllPhongHoc_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuanLyMayTinh/getAllPhongHocResponse" message="tns:IQuanLyMayTinh_getAllPhongHoc_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getMayTinhThuocPhong">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuanLyMayTinh/getMayTinhThuocPhong" message="tns:IQuanLyMayTinh_getMayTinhThuocPhong_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuanLyMayTinh/getMayTinhThuocPhongResponse" message="tns:IQuanLyMayTinh_getMayTinhThuocPhong_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckIfExist">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuanLyMayTinh/CheckIfExist" message="tns:IQuanLyMayTinh_CheckIfExist_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuanLyMayTinh/CheckIfExistResponse" message="tns:IQuanLyMayTinh_CheckIfExist_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="insertMayTinh">
+      <wsdl:input wsaw:Action="http://tempuri.org/IQuanLyMayTinh/insertMayTinh" message="tns:IQuanLyMayTinh_insertMayTinh_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IQuanLyMayTinh/insertMayTinhResponse" message="tns:IQuanLyMayTinh_insertMayTinh_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IQuanLyMayTinh" type="tns:IQuanLyMayTinh">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getAllPhongHoc">
+      <soap:operation soapAction="http://tempuri.org/IQuanLyMayTinh/getAllPhongHoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMayTinhThuocPhong">
+      <soap:operation soapAction="http://tempuri.org/IQuanLyMayTinh/getMayTinhThuocPhong" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIfExist">
+      <soap:operation soapAction="http://tempuri.org/IQuanLyMayTinh/CheckIfExist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertMayTinh">
+      <soap:operation soapAction="http://tempuri.org/IQuanLyMayTinh/insertMayTinh" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="QuanLyMayTinh">
+    <wsdl:port name="BasicHttpBinding_IQuanLyMayTinh" binding="tns:BasicHttpBinding_IQuanLyMayTinh">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfQLMayTinh/QuanLyDB/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

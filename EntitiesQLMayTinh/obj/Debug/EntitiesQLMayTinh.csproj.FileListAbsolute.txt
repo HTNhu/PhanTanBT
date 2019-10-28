@@ -1,0 +1,9 @@
+C:\GiangDay\WinNC\QLMayTinh\EntitiesQLMayTinh\bin\Debug\EntitiesQLMayTinh.dll
+C:\GiangDay\WinNC\QLMayTinh\EntitiesQLMayTinh\bin\Debug\EntitiesQLMayTinh.pdb
+C:\GiangDay\WinNC\QLMayTinh\EntitiesQLMayTinh\obj\Debug\EntitiesQLMayTinh.dll
+C:\GiangDay\WinNC\QLMayTinh\EntitiesQLMayTinh\obj\Debug\EntitiesQLMayTinh.pdb
+T:\QLMayTinh\EntitiesQLMayTinh\bin\Debug\EntitiesQLMayTinh.dll
+T:\QLMayTinh\EntitiesQLMayTinh\bin\Debug\EntitiesQLMayTinh.pdb
+T:\QLMayTinh\EntitiesQLMayTinh\obj\Debug\EntitiesQLMayTinh.csprojResolveAssemblyReference.cache
+T:\QLMayTinh\EntitiesQLMayTinh\obj\Debug\EntitiesQLMayTinh.dll
+T:\QLMayTinh\EntitiesQLMayTinh\obj\Debug\EntitiesQLMayTinh.pdb
